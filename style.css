@@ -1,0 +1,71 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+line-height: 1.6em;
+margin: 0;
+}
+.container{
+width: 80%;
+margin: auto;
+overflow: hidden;
+
+
+
+}             
+#mainHeader{
+    background: dimgrey;
+    color: white;
+
+}
+#mainNav{
+    background: #ccc;
+    color: black;
+
+}
+#mainNav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#mainNav li {
+    display: inline;
+    padding: 5px 10px;
+}
+#mainNav a {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+#mainNav li:hover{
+    background: #aaa;
+}
+#jumbo{
+    background-image:url(https://i.pinimg.com/originals/51/bf/43/51bf43c010e586931ca3c95ce649e7de.jpg) ;
+    background-position: center center;
+    min-height: 300px;
+    text-align: left;
+    font-size: 50px;
+    color: black;
+
+}
+
+p{
+border: 5px solid black;
+padding: 10px;
+
+
+
+
+}
+
+#bme{
+
+    background-image: url(https://www.bme.hu/sites/all/themes/foo/logo.png.svg) ;
+    background-position: center center;
+    min-height: 251px;
+
+
+}
+
+
+
